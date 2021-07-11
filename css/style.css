@@ -1,0 +1,503 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #cbd6aa;
+}
+/*  Start header*/
+header {
+    height:600px;
+    background-color: #7287ae;
+}
+header img {
+    max-width: 350px;
+    padding-top: 35px;
+    margin-left: 60px;
+}
+header nav {
+    float: right;
+    margin-right: 100px;
+    margin-top: 55px;
+}
+header nav ul {
+    float: right;
+    list-style: none;
+}
+header nav li {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    list-style: none;
+    font-size: 18px;
+}
+header nav li a {
+    color: white;
+    font-size: 24px;
+    font-family: monospace;
+    text-decoration: none;
+
+
+}
+header a:hover {
+    background-color: #3f75db;
+    color: white;
+    padding:5px;
+}
+.section1 .parent-healthy{
+    display: flex;
+    justify-content: center;
+}
+.section1 .parent-healthy .food{
+    text-align: center;
+}
+.section1 .parent-healthy .food h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    margin-bottom: 2px;
+}
+.section1 .parent-healthy .food h3{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.section1 .parent-healthy .food p{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: antiquewhite;
+    
+}
+.section2{
+    display: flex;
+    justify-content: flex-end;
+    color: antiquewhite;
+}
+.section3{
+    display: flex;
+    color: antiquewhite;
+    height: 50px;
+}
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
+    
+  }
+svg {
+    display: inline-block;
+    position: absolute;
+  
+  }
+/* End header*/
+
+/* start Section 4*/
+ .section4{
+     height: 800px;
+     margin-top: 400px;
+ }
+.section4 h1{
+    text-align: center;
+    color: #7287ae;
+    font-family: Myriad Pro;
+}
+.section4 .parent-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.section4 .parent-menu .one{
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4 .parent-menu .one img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+.section4 .parent-menu .one h3,p,span{
+    padding-left: 10px;
+    color: #504f4f;
+    font-family: Myriad Pro;
+}
+.section4 .parent-menu .one span{
+    font-weight: bolder;
+}
+.section4 .parent-menu .two{
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4 .parent-menu .two img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+.section4 .parent-menu .two h3,p,span{
+    padding-left:10px;
+    color: #504f4f;
+    font-family: Myriad Pro;
+
+}
+.section4 .parent-menu .two span{
+    font-weight: bolder;
+}
+.section4 .parent-menu .three{
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4 .parent-menu .three img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+.section4 .parent-menu .three h3,p,span{
+    padding-left: 10px;
+    color: #504f4f;
+    font-family: Myriad Pro;
+}
+.section4 .parent-menu .three span{
+    font-weight: bolder;
+}
+.section4 button{
+    width: 180px;
+    border-radius: 25px;
+    border:2px solid #7287ae;
+    padding: 15px;
+    margin-top: 70px;
+    margin-left: 620px;
+    background-color: #7287ae;
+    color: white;
+    font-family: Myriad Pro;
+    word-spacing: 1px;
+    font-size: 18px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ .section4 button:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+.section5{
+    display: flex;
+    justify-content: flex-end;
+    color: #7287ae;
+}
+/* End section 4*/
+/*start Section 5 */
+.section6{
+    height: 690px;
+}
+.section6 .parent-discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+.section6 .parent-discount .image{
+    width: 500px;
+}
+.section6 .parent-discount .image img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section6 .parent-discount .text{
+    padding-top: 200px;
+    max-height:60%;
+   margin-right: 120px;
+    width: 500px;
+}
+.section6 .parent-discount .text h3{
+    color: black;
+    font-size: 28px;
+    font-family: monospace;
+}
+.section6 .parent-discount .text button{
+    width: 180px;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 25px;
+    border:2px solid #7287ae;
+    background-color: #7287ae;
+    color: white;
+    font-family: Myriad Pro;
+    word-spacing: 1px;
+    font-size: 18px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.section6 .parent-discount .text button:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+/*End Section 5 */
+/*start Section 6 */
+.section7{
+   /* height: 690px;*/
+    height: 849px;
+}
+.section7 .parent-promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 89px;
+    background-color: white;
+} 
+.section7 .parent-promo .text1{
+    padding-top: 200px;
+}
+.section7 .parent-promo .text1 h3{
+    color: black;
+    font-size: 28px;
+    font-family: monospace;
+    margin-left: 130px;
+}
+.section7 .parent-promo .text1 p{
+    margin-left: 10px;
+    text-align: center;
+}
+.section7 .parent-promo .image1 img{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 707px;
+margin-left: 40px;
+}
+.section7 .parent-promo .text1 button{
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 250px;
+    border-radius: 25px;
+    border:2px solid #7287ae;
+    background-color: #7287ae;
+    color: white;
+    font-family: Myriad Pro;
+    word-spacing: 1px;
+    font-size: 18px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.section7 .parent-promo .text1 button:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+/*End Section 6 */
+/*start Section 7*/
+.section8{
+    height: 500px;
+    background-color:#7287ae;
+}
+.section8 .parent-order{
+    display: flex;
+  justify-content: space-evenly;
+}
+.section8 .head h1{
+    margin-top: 0;
+    padding-top: 50px;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    text-align: center;
+}
+.section8 .parent-order .first{
+    background-color: aliceblue;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   padding-left: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section8 .parent-order .first p{
+   color:#7287ae;
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: 20px
+}
+.section8 .parent-head {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+   padding-left: 10px;
+}
+.section8 .parent-head p{
+    color: white;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.section8 .parent-p{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.section8 .parent-p .pragraph{
+    text-align: center;
+    
+}
+.section8 .parent-p .pragraph p{
+    color: white;
+ 
+}
+/*End Section 7*/
+/*start Section 8*/
+.section9{
+    height: 600px;
+    background-image: url(../images/06.png);
+    background-size: cover;
+}
+.section9 .parent-free{
+    display: flex;
+    justify-content: center;
+}
+.section9 .parent-free .delivery{
+    text-align: center;
+    padding-top: 150px;
+    width: 600px;
+}
+.section9 .parent-free .delivery h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color:  #7287ae;
+}
+.section9 .parent-free .delivery p{
+    color:  #7287ae;
+}
+.section9 .parent-free .delivery button{
+    width: 180px;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 50px;
+    border-radius: 25px;
+    border:2px solid #7287ae;
+    background-color: #7287ae;
+    color: white;
+    font-family: Myriad Pro;
+    word-spacing: 1px;
+    font-size: 18px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.section9 .parent-free .delivery button:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease-in;
+}
+.section9 .ul2{
+float: right;
+display: flex;
+padding-top: 160px;
+color: #7287ae;
+margin-right: 50px;
+}
+/*End Section 8*/
+/*start Section 9*/
+.section10{
+    height: 900px;
+}
+.section10 .parent-qout{
+    display: flex;
+    justify-content: center;
+}
+.section10 .parent-qout .wait{
+    text-align: center;
+    padding-top: 50px;
+    width: 500px;
+    margin-left:200px;
+    color: #7287ae;
+}
+.section10 .parent-qout .wait h2{
+    color: #7287ae;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.section10 .parent-qout .wait p{
+    color: #7287ae;
+    font-size: 18px;
+}
+.section10 .parent-qout .wait h4{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.section10 .icon{
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+.section10 .icon .fab{
+    background-color: #7287ae;
+    color: white;
+    font-size: 34px;
+    padding-top:13px;
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+}
+.section10 .ul2{
+    display: flex;
+    padding-top: 160px;
+    color: #7287ae;
+    margin-right: 50px;
+}
+/*End Section 9*/
+/*start Section 10*/
+.section11{
+    height: 130px;
+}
+/*End Section 10*/
+/*start Section 11*/
+.section12{
+    background-color: #7287ae;
+    height: 400px;
+}
+.section12 .parent-about{
+   display: flex;
+   justify-content: space-around;
+}
+.section12 .parent-about .about1{
+    width: 50%;
+    padding-left: 30px;
+}
+.section12 .parent-about .about1 h2{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.section12 .parent-about .about1 p{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.section12 .parent-about .about2,.about3,.about4 h2{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.section12 .parent-about .about2 p{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.section12 .parent-about .about3 p{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.section12 .parent-about .about4 p{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+/*End Section 11*/
